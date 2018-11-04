@@ -1,20 +1,20 @@
-## Listando os hosts:
+# Listando os hosts:
 
 ### Lista todos os hosts:
 >`ansible --list-hosts all`   
 ou   
 >`ansible --list-hosts "*"`
 
-### Lista hosts por grupo
+### Lista hosts por grupo:
 >`ansible --list-hosts containers`
 
-### Lista hosts por IP
+### Lista hosts por IP:
 >`ansible --list-hosts 172.17.0.2`
 
-### Lista todos hosts da faixa de IP
+### Lista todos hosts da faixa de IP:
 >`ansible --list-hosts 172.17.0.*`
 
-### Lista os hosts de dois grupos
+### Lista os hosts de dois grupos:
 >`ansible --list-hosts Control:containers`
 
 ### Lista os hosts menos do grupo:
