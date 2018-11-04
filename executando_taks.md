@@ -11,4 +11,4 @@ ou
 >`ansible -a "hostname" all`
 
 
-[Todos os Módulos](https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html):target="_blank"}
+[Todos os Módulos](https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html){:target="_blank"}
