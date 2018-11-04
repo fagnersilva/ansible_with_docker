@@ -30,13 +30,15 @@
 ### Iniciando o SSH
 > `/etc/init.d/ssh start`
 
+
+----
 ## Crie um usuário diferente de root:
 
 > `adduser fsantoss | password 123456`
 
 > `adduser fsantoss sudo`
 
-> `visudo`
+> `visudo`  
 > `%sudo   ALL=(ALL) NOPASSWD: ALL`
 
 
@@ -69,6 +71,10 @@ Em seguida, copie a chave pública para:
 
 ### Instalando o nginx no Container
 > `ansible containers -s -m apt -a 'pkg=nginx state=installed update_cache=true'`
+
+### Iniciando o Nginx
+> `docker ps -q`
+> `docker exec -it "id_container" bash -c "/etc/init.d/nginx start"`
 
 [license-badge]: https://img.shields.io/github/license/robertoachar/generator-oss-project.svg
 [license-url]: https://opensource.org/licenses/MIT
