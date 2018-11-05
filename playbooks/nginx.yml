@@ -2,4 +2,6 @@
 - hosts: containers
   tasks:
     - name: Instalando Nginx
-    - apt: name=nginx state=present update_cache=yes
+      apt: name=nginx state=present update_cache=yes
+      become: true
+

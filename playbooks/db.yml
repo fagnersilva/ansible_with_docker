@@ -1,5 +1,6 @@
 ---
 - hosts: containers
   tasks:
-    - name: Instalando MySQL
-    - apt: name=mysql-server state=present update_cache=yes
+    - name: Instalando MariaDB
+      apt: name=mariadb-server state=present update_cache=yes
+      become: true
