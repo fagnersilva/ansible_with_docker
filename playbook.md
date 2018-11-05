@@ -19,3 +19,9 @@ _Playbooks são a forma pelo qual o Ansible consegue configurar uma política ou
 
 ### Executando o playbook
 > `ansible-playbook /etc/ansible/playbooks/hostname.yml`
+
+## Módulo APT
+[nginx.yml](https://github.com/fagnersilva/ansible_with_docker/blob/master/playbooks/nginx.yml)
+
+## Módulo APT instalando Banco de dados
+[db.yml](https://github.com/fagnersilva/ansible_with_docker/blob/master/playbooks/db.yml)

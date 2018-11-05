@@ -1,4 +1,5 @@
 ---
 - hosts: containers
   tasks:
-    - command: hostname
+    - name: Buscando nome dos servidores
+      command: hostname
